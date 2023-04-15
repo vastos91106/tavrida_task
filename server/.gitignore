@@ -3,6 +3,27 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# idea
+src/.idea
+
+#build
+src/Infrastructure.TavridaTask/[Dd]ebug
+src/Infrastructure.TavridaTask/[Rr]elease/
+src/Infrastructure.TavridaTask/[Bb]in/
+src/Infrastructure.TavridaTask/[Oo]bj/
+
+#build
+src/Core.TavridaTask/[Dd]ebug
+src/Core.TavridaTask/[Rr]elease/
+src/Core.TavridaTask/[Bb]in/
+src/Core.TavridaTask/[Oo]bj/
+
+#build
+src/Api.TavridaTask/[Dd]ebug
+src/Api.TavridaTask/[Rr]elease/
+src/Api.TavridaTask/[Bb]in/
+src/Api.TavridaTask/[Oo]bj/
+
 # User-specific files
 *.rsuser
 *.suo
