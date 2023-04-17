@@ -3,6 +3,19 @@
 Каждый филиал относится к одной из компаний. Все компании имеют обязательный бинарный
 признак, который разделяет их на две группы.
 
+## Структура Проекта 
+
+server: 
+
+Test.TavridaTask - слой тестов \
+Infrastructure.TavridaTask - слой подключение к инфрастуктуре + мигратор \
+Core.TavridaTask - слой бизнес логики \
+Api.TavridaTask - слой апи 
+
+client: \
+Стандартный npx-react-create-app \
+Css - aphrodite
+
 ## Структура БД:
 Companies - таблица компаний: \
 Id - идентификатор \
@@ -65,3 +78,4 @@ from Companies as c
          join CompanyBranches cb on c.Id = cb.CompanyId
 ```
 
+## Для использование миграций в проекте Infrastructure.TavridaTask создана DesignTimeDbContextFactory, которая принимает аргумент connection string
