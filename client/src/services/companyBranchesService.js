@@ -1,6 +1,6 @@
 import {httpCall} from "./http";
 
-const getByCompanyBinarySignUrl = "company-branches/by-company-branch-sign";
+const getByCompanyBinarySignUrl = "companybranch/by-company-branch-sign";
 
 export async function getByCompanyBinarySign() {
     const response = await httpCall(getByCompanyBinarySignUrl);
